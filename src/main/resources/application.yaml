@@ -3,4 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/j133_spring_demo?serverTimezone=Europe/Warsaw&createDatabaseIfNotExist=true
     password: Modyfikator12!
     username: root
+  jpa:
+    hibernate:
+      ddl-auto: update # Tabele zostaną wyegenerowane przez springa
 
